@@ -7,6 +7,6 @@ def call() {
      def mavenCommand = 'mvn package -DskipTests=true' 
 
      //Execute the maven command in a shell
-     sh script: maven command, returnStatus: true     
+     sh script: mavenCommand, returnStatus: true     
     
 }
