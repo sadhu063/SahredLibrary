@@ -1,3 +1,5 @@
 def call() {
-  sh 'sudo maven install -y'
+  sh 'pwd'
+  sh 'id'
+  sh 'w'
 }
