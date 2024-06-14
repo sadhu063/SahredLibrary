@@ -1,3 +1,3 @@
 def call() {
-  sh 'maven install'
+  sh 'sudo maven install'
 }
